@@ -1,8 +1,17 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.0
+version: v1.13.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:ms:20170412':
     - nuxt > compression > debug > ms:
         patched: '2017-05-22T00:49:36.655Z'
+    - axios > follow-redirects > debug > ms:
+        patched: '2018-12-09T06:04:15.917Z'
+    - nuxt > webpack-bundle-analyzer > express > finalhandler > debug > ms:
+        patched: '2018-12-09T06:04:15.917Z'
+  'npm:debug:20170905':
+    - axios > follow-redirects > debug:
+        patched: '2018-12-09T06:04:15.917Z'
+    - nuxt > webpack-bundle-analyzer > express > finalhandler > debug:
+        patched: '2018-12-09T06:04:15.917Z'
