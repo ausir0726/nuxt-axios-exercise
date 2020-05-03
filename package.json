@@ -6,9 +6,9 @@
   "private": true,
   "dependencies": {
     "axios": "^0.15.3",
-    "bootstrap": "4.0.0-alpha.6",
+    "bootstrap": "4.0.0",
     "nuxt": "latest",
-    "snyk": "^1.30.1"
+    "snyk": "^1.316.2"
   },
   "config": {
     "nuxt": {
@@ -24,7 +24,7 @@
     "lint": "eslint --ext .js,.vue --ignore-path .eslintignore .",
     "precommit": "npm run lint",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "yarn run snyk-protect"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
