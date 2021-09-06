@@ -5,7 +5,7 @@
   "author": "ausir <ausir@finpo.com.tw>",
   "private": true,
   "dependencies": {
-    "axios": "^0.15.3",
+    "axios": "^0.21.3",
     "bootstrap": "4.0.0-alpha.6",
     "nuxt": "latest",
     "snyk": "^1.30.1"
